@@ -2,7 +2,7 @@ const staticUEKMap = "uek-map-site-v1"
 const assets = [
   "/uek-map/",
   "/uek-map/index.html",
-  "/js/app.js"
+  "/uek-map/js/app.js"
 ]
 
 self.addEventListener("install", installEvent => {
