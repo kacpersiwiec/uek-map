@@ -21,7 +21,7 @@
         const pawBMarker = L.marker([50.068856, 19.955452], {title: 'Pawilon B'})
         const pawCMarker = L.marker([50.069156, 19.955202], {title: 'Pawilon C'})
         const map = new L.map('map', initialCoords)
-        const layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
+        const layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
         map.addLayer(layer)
         pawAMarker.addTo(map)
         pawBMarker.addTo(map)
